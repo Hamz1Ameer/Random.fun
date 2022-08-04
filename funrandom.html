@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Fun</title>
+    <style>
+        body {
+            background-color: cadetblue;
+        }
+
+        .container {
+            background-color: aqua;
+            width: 400px;
+            height: 350px;
+            align-items: center;
+            justify-content: center;
+            display: inline-block;
+            margin-left: 35%;
+            margin-top: 10%;
+            border: 3px solid rgb(220, 124, 23);
+            border-radius: 10px;
+        }
+
+        .btn {
+            width: 50px;
+            align-items: center;
+            justify-content: center;
+            margin-left: 40%;
+            margin-top: 25%;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: rgb(175, 175, 175);
+            cursor: pointer;
+        }
+
+        .joke {
+            margin-top: 10%;
+            font-family: cursive;
+            font-weight: bold;
+            padding: 10px;
+        }
+
+        h3 {
+            padding: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <h3>Some Funny Jokes:</h3>
+        <div id="joke" class="joke">Joke is Loading...</div>
+        <button id="jokeBtn" class="btn">Next Joke</button>
+    </div>
+    <script src="jokes.js"></script>
+</body>
+
+</html>
